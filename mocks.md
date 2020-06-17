@@ -1,4 +1,4 @@
-## Mock Contests
+## Mock Contest Portal
 
 This is a compilation of the Mock Contests I have worked on. The earlier contests may be of dubious quality.
 
