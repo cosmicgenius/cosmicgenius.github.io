@@ -28,7 +28,7 @@ With **Sriram Ananthakrishnan** and **Andrew Wen**.
 
 [Discussion Forum](https://artofproblemsolving.com/community/c968073_summer_mock_aime_discussion_forum)
 
-## 2020 Mock JMO the Elder
+## 2020 Mock JMO (the elder)
 
 With **Andrew Wen** and **William Yue**.
 
@@ -39,3 +39,29 @@ With **Andrew Wen** and **William Yue**.
 [Solutions](https://cosmicgenius.github.io/mocks/2020_Mock_JMO_Solutions.pdf)
 
 [Discussion Threads](https://artofproblemsolving.com/community/c594864h2042592p14877687)
+
+## 2020 Summer Mathematics Competition
+
+With **Jeffrey Chen**, **Ram Goel**, **Maximus Lu**, **Eric Shen**, **Andrew Wen**, **Edward Yu**, and **William Yue**.
+
+[Aops Post](https://artofproblemsolving.com/community/) 
+
+[Discussion Forum](https://artofproblemsolving.com/community/)
+
+### 2020 SIME
+
+[Test](https://cosmicgenius.github.io/)
+
+[Solutions](https://cosmicgenius.github.io/)
+
+### 2020 SJMO (the younger)
+
+[Test](https://cosmicgenius.github.io/)
+
+[Solutions](https://cosmicgenius.github.io/)
+
+### 2020 SMO
+
+[Test](https://cosmicgenius.github.io/)
+
+[Solutions](https://cosmicgenius.github.io/)
