@@ -1,8 +1,8 @@
-## Mock Contest Portal
+# Mock Contest Portal
 
 This is a compilation of the Mock Contests I have worked on. The earlier contests may be of dubious quality.
 
-# 2018 Winter Mock AMC 10
+## 2018 Winter Mock AMC 10
 
 With **Andrew Wen**.
 
@@ -14,7 +14,7 @@ With **Andrew Wen**.
 
 [Discussion Forum](https://artofproblemsolving.com/community/c797676_winter_mock_amc_10_discussion_forum)
 
-# 2019 Summer Mock AIME
+## 2019 Summer Mock AIME
 
 With **Sriram Ananthakrishnan** and **Andrew Wen**.
 
@@ -28,7 +28,7 @@ With **Sriram Ananthakrishnan** and **Andrew Wen**.
 
 [Discussion Forum](https://artofproblemsolving.com/community/c968073_summer_mock_aime_discussion_forum)
 
-# 2020 Mock JMO the Elder
+## 2020 Mock JMO the Elder
 
 With **Andrew Wen** and **William Yue**.
 
