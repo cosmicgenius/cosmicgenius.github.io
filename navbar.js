@@ -1,14 +1,14 @@
 document.write("				        <div class=\"navbar\">");
 document.write("									<ul>");
-document.write("										<li><a class=\"active\" href=\"index.html\">Home<\/a><\/li>");
+document.write("										<li><a class=\"active\" href=\"\/index.html\">Home<\/a><\/li>");
 document.write("										<li>");
 document.write("											<div class=\"dropdown\">");
 document.write("												<button class=\"dropbtn\">");
 document.write("													Mock Contests <i class=\"fa fa-caret-down\"><\/i>");
 document.write("												<\/button>");
 document.write("												<div class=\"dropdown-content\">");
-document.write("													<a href=\"mocks\/standalone.html\">Standalone Contests<\/a>");
-document.write("													<a href=\"mocks\/SMC.html\">SMC<\/a>");
+document.write("													<a href=\"\/mocks\/standalone.html\">Standalone Contests<\/a>");
+document.write("													<a href=\"\/mocks\/SMC.html\">SMC<\/a>");
 document.write("												<\/div>");
 document.write("											<\/div>");
 document.write("										<\/li>");
