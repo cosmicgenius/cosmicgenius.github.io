@@ -1,6 +1,6 @@
 document.write("				        <div class=\"navbar\">");
 document.write("									<ul>");
-document.write("										<li><a class=\"active\" href=\"\/index.html\">Home<\/a><\/li>");
+document.write("										<li><a href=\"\/index.html\">Home<\/a><\/li>");
 document.write("										<li>");
 document.write("											<div class=\"dropdown\">");
 document.write("												<button class=\"dropbtn\">");

@@ -38,10 +38,6 @@ a {
   background-color: #111;
 }
 
-.active {
-  background-color: #4CAF50;
-}
-
 .dropdown {
   float: left;
   overflow: hidden;
@@ -83,3 +79,9 @@ a {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/*
+.active {
+  background-color: #4CAF50;
+}
+*/
