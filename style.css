@@ -45,7 +45,7 @@ h1 {
 }
 
 .navbar li a:hover, .dropdown:hover .dropbtn {
-  background-color: #111;
+  background-color: #000;
 }
 
 .dropdown {
@@ -83,7 +83,7 @@ h1 {
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd !important;
+  background-color: #ccc !important;
 }
 
 .dropdown:hover .dropdown-content {
@@ -91,9 +91,9 @@ h1 {
 }
 
 .navbar li .active {
-  background-color: #000;
+  background-color: #111;
 }
 
 .dropdown-content .active {
-  background-color: #ccc !important;
+  background-color: #ddd !important;
 }
