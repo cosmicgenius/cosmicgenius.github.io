@@ -1,15 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head><meta charset="utf-8">
-    <script src="/preamble.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
     <title>cosmicgenius Home</title>
   </head>
 
   <body>
-		<script src="/navbar.js"></script>
-			<main>
-        <h2>Home</h2>
-				<p>This website is basically an archive. See the above bar for my works.</p>
-			</main>
+    <nav class="navbar">
+      <ul>
+      	<li><a class="active">Home</a></li>
+      	<li>
+      		<div class="dropdown">
+      			<button class="dropbtn">
+      				Mock Contests <i class="fa fa-caret-down"></i>
+      			</button>
+      			<div class="dropdown-content">
+      				<a href="mocks/standalone.html">Standalone Contests</a>
+      				<a href="mocks/SMC.html">SMC</a>
+      			</div>
+      		</div>
+      	</li>
+      </ul>
+    </nav>
+		<main>
+      <h2>Home</h2>
+			<p>This website is basically an archive. See the above bar for my works.</p>
+		</main>
   </body>
 </html>

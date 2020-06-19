@@ -80,8 +80,10 @@ a {
   display: block;
 }
 
-/*
-.active {
-  background-color: #4CAF50;
+.navbar li .active {
+  background-color: #000;
 }
-*/
+
+.dropdown-content .active {
+  background-color: #ccc !important;
+}
