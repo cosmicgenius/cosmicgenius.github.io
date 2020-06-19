@@ -4,26 +4,30 @@ body {
 }
 
 main {
-    max-width: 1024px;
-    margin: auto;
-    font-size: 16px;
+  margin: auto;
+  max-width: 1024px;
+  font-size: 16px;
 }
 
 a {
-    color: SteelBlue;
-    text-decoration: none;
+  color: SteelBlue;
+  text-decoration: none;
 }
 
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.navbar {
   overflow: hidden;
   background-color: #333;
 }
 
+.navbar ul {
+  max-width: 1024px;
+  list-style-type: none;
+  margin: 0 auto !important;
+  padding: 0 auto !important;
+}
+
 .navbar li {
-  float: left;
+  float: right;
 }
 
 .navbar li a {
