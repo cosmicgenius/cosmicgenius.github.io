@@ -3,26 +3,6 @@ body {
   margin: 0 auto !important;
 }
 
-main {
-  margin: auto;
-  max-width: 1024px;
-  font-size: 16px;
-  margin-top: 85px !important;
-}
-
-a {
-  color: SteelBlue;
-  text-decoration: none;
-}
-
-h1 {
-  font-size: 36px;
-}
-
-h2 {
-  margin-top: 36px;
-}
-
 .navbar {
   position: fixed;
   top: 0;
@@ -124,4 +104,49 @@ h2 {
 
 .dropdown-content .active {
   background-color: #ddd !important;
+}
+
+a {
+  color: DodgerBlue;
+  text-decoration: none;
+}
+
+main h1 {
+  font-size: 36px;
+}
+
+main h2 {
+  margin-top: 36px;
+}
+
+.midbox {
+  margin: auto;
+  max-width: 1024px;
+  font-size: 16px;
+  margin-top: 85px !important;
+}
+
+footer {
+  background-color: #111;
+  height: 128px;
+  bottom: 0;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.fmenu {
+  margin: auto;
+  max-width: 1024px;
+  padding: 10px;
+  color: #ccc;
+  font-size: 12px;
+}
+
+.fmenu a {
+  color: SteelBlue;
+}
+
+.fmenu p {
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
