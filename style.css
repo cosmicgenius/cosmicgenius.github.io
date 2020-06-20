@@ -1,6 +1,8 @@
 body {
   font-family: Helvetica, sans-serif;
   margin: 0 auto !important;
+  min-height: 100vh;
+  position: relative;
 }
 
 .navbar {
@@ -113,6 +115,10 @@ a {
   text-decoration: none;
 }
 
+main {
+  overflow-x: hidden;
+}
+
 main h1 {
   font-size: 36px;
 }
@@ -133,9 +139,11 @@ main h2 {
 footer {
   background-color: #111;
   height: auto;
-  bottom: 0;
   width: 100%;
   margin-top: 64px;
+  bottom: 0 !important;
+  position: relative;
+  overflow-x: hidden;
 }
 
 .fmenu {
