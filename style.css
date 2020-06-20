@@ -121,6 +121,7 @@ main {
 
 main h1 {
   font-size: 36px;
+  margin-top: 0px;
 }
 
 main h2 {
@@ -129,11 +130,10 @@ main h2 {
 
 .midbox {
   margin: auto;
-  max-width: 896px;
-  padding-left: 64px;
-  padding-right: 64px;
+  max-width: 960px;
+  padding: 32px;
+  padding-top: calc(32px + 60.8px);
   font-size: 16px;
-  margin-top: 85px !important;
 }
 
 footer {
