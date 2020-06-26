@@ -149,8 +149,8 @@ footer {
 
 .fmenu {
   margin: auto;
-  max-width: 896px;
-  padding: 10px 64px;
+  max-width: 960px;
+  padding: 10px 32px;
   color: #ccc;
   height: auto;
   font-size: 12px;
