@@ -126,7 +126,12 @@ main h1 {
 }
 
 main h2 {
-  margin-top: 36px;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+main h3 {
+  font-size: 20px;
 }
 
 .midbox {
