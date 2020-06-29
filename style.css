@@ -1,10 +1,13 @@
+/* Set up body */
 body {
   font-family: Helvetica, sans-serif;
   margin: 0 auto !important;
   min-height: 100vh;
   position: relative;
+  scrollbar-width: thin;
 }
 
+/* Set up top navigation bar */
 .navbar {
   position: fixed;
   top: 0;
@@ -14,6 +17,7 @@ body {
   padding: 0px !important;
 }
 
+/* Name + Image at the left side of navbar */
 .navmenu .name {
   color: white;
   font-size: 24px;
@@ -28,6 +32,7 @@ body {
   margin-right: 10px;
 }
 
+/* Container for navbar buttons */
 .navmenu {
   max-width: 896px;
   min-height: 60.8px;
@@ -60,6 +65,7 @@ body {
   background-color: #000;
 }
 
+/* Dropdown menu */
 .dropdown {
   position: relative;
   display: inline-block;
@@ -103,6 +109,8 @@ body {
   display: block;
 }
 
+/* Darken button for current page on menu */
+
 .navbar li .active {
   background-color: #111;
 }
@@ -110,6 +118,8 @@ body {
 .dropdown-content .active {
   background-color: #ddd !important;
 }
+
+/* Set up body text */
 
 a {
   color: DodgerBlue;
@@ -134,6 +144,8 @@ main h3 {
   font-size: 20px;
 }
 
+/* Container for body text that automatically sets margins */
+
 .midbox {
   margin: auto;
   max-width: 960px;
@@ -141,6 +153,8 @@ main h3 {
   padding-top: calc(32px + 60.8px);
   font-size: 16px;
 }
+
+/* Footer */
 
 footer {
   background-color: #111;
