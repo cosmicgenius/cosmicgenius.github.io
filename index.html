@@ -2,7 +2,13 @@
 <html>
   <head><meta charset="utf-8">
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link type="text/css" rel="stylesheet" href="style.css"/>
 
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -14,50 +20,73 @@
 
     <base target="_blank">
 
+    <style>
+
+    .bg {
+      background-image: url("Veil_Nebula.jpg");
+      height: 41vw !important;
+      margins: auto;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    </style>
+
     <title>cosmicgenius Home</title>
   </head>
 
   <body>
-    <nav class="navbar">
-      <div class="navmenu">
-        <div class="name">
-          <img src="icon-192.png">Anthony Wang
-        </div>
-        <ul>
-        	<li><a class="active">Home</a></li>
-        	<li>
-        		<div class="dropdown">
-        			<button class="dropbtn">
-        				Mock Contests <i class="fa fa-caret-down"></i>
-        			</button>
-        			<div class="dropdown-content">
-        				<a href="mocks/miscellaneous.html" target="_self">Miscellaneous</a>
-        				<a href="mocks/SMC.html" target="_self">SMC</a>
-        			</div>
-        		</div>
-        	</li>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+      <a class="navbar-brand" href="#">
+        <img src="icon-192.png" width="32" height="32" class="d-inline-block align-top" alt="">
+        <span style="margin-left: 5px;">Anthony Wang</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active"> <a class="nav-link" target="_self" href="index.html">Home <span class="sr-only">(current)</span></a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Mock Contests
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" target="_self" href="miscellaneous.html">Miscellaneous</a>
+              <a class="dropdown-item" target="_self" href="SMC.html">SMC</a>
+            </div>
+          </li>
         </ul>
       </div>
     </nav>
-		<main>
-      <div style="margin: auto; top:(0% + 60.8px); width: 100vw; height: 41vw; background-image: url('Veil_Nebula.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: contain; z-index: -1;"></div>
-      <div class="midbox" style="padding-top: 32px !important; padding-bottom: 128px;"> <!--padding-bottom approximates the height of the footer; only for pages with sufficient material-->
+    <div class="wrapper">
+
+      <div class="bg position-relative"><p class="text-light position-absolute m-1" style="right:0; bottom:0; font-size: 12px;">Veil Nebula: <a href="https://commons.wikimedia.org/wiki/File:Veil_Nebula_-_NGC6960.jpg" title="via Wikimedia Commons" class="text-light-blue">(By Ken Crawford)</a> / <a href="https://creativecommons.org/licenses/by-sa/3.0" class="text-light-blue">(CC BY-SA 3.0)</a></p></div>
+
+      <div class="textcontainer">
         <h1>Home</h1>
-  			<p>This website is basically an archive. See the above bar for my works.</p>
-        <h4>A Note on Photo Credits</h4>
-        <p>
-          This website uses several licensed images that require attribution.
-          On pages that contain such images, the footer will contain the necessary credits.
-          The favicon, which appears on every page, has its credit on this page.
-        </p>
+        <p>This website is basically an archive of my works. See the above bar for more detail. </p>
+
+        <br>
+        <br class="d-lg-none">
+        <br class="d-lg-none">
+        <br class="d-lg-none">
+        <br class="d-lg-none">
+        <br class="d-md-none">
+        <br class="d-md-none">
+        <br class="d-sm-none">
+        <br class="d-sm-none">
+        <br class="d-sm-none">
       </div>
-		</main>
-    <footer>
-      <div class="fmenu">
-        <h4>Photo Credits</h4>
-        <p>Favicon: <a href="https://www.eso.org/public/images/eso0905a/">(ESO)</a> / <a href="https://creativecommons.org/licenses/by/4.0/">(CC BY 4.0)</a>, cropped to square.</p>
-        <p>Veil Nebula: <a href="https://commons.wikimedia.org/wiki/File:Veil_Nebula_-_NGC6960.jpg" title="via Wikimedia Commons">(By Ken Crawford)</a> / <a href="https://creativecommons.org/licenses/by-sa/3.0">(CC BY-SA 3.0)</a></p>
-      </div>
-    </footer>
+      <footer class="text-light bg-black pt-4">
+        <div class="textcontainer container-fluid">
+          <div class="row">
+            <div class="col-md-6 mt-md-0 mt-3">
+
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

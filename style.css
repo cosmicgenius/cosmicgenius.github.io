@@ -1,185 +1,24 @@
-/* Set up body */
-body {
-  font-family: Helvetica, sans-serif;
-  margin: 0 auto !important;
-  min-height: 100vh;
-  position: relative;
-  scrollbar-width: thin;
+body, html {
+  height: 100%;
 }
 
-/* Set up top navigation bar */
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  overflow: hidden;
-  background-color: #333;
-  padding: 0px !important;
-}
-
-/* Name + Image at the left side of navbar */
-.navmenu .name {
-  color: white;
-  font-size: 24px;
-  position: absolute;
-  font-family: Verdana, sans-serif;
-  padding: 14px 16px 18px 4px;
-  text-align: center;
-}
-
-.navbar .name img {
-  height: 20px;
-  margin-right: 10px;
-}
-
-/* Container for navbar buttons */
-.navmenu {
-  max-width: 896px;
-  min-height: 60.8px;
-  padding-left: 64px;
-  padding-right: 64px;
-  margin: auto;
-  position: relative;
-}
-
-.navbar ul {
-  list-style-type: none;
-  margin: 0 auto !important;
-  padding: 0 auto !important;
-}
-
-.navbar li {
-  float: right;
-}
-
-.navbar li a {
-  display: block;
-  color: white;
-  font-size: 18px;
-  text-align: center;
-  padding: 20px 16px;
-  text-decoration: none;
-}
-
-.navbar li a:hover, .dropdown:hover .dropbtn {
-  background-color: #000;
-}
-
-/* Dropdown menu */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown .dropbtn {
-  font-size: 18px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 20px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.dropdown-content {
-  display: none;
-  position: fixed;
-  background-color: #f9f9f9;
-  min-width: 240px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1000 !important;
-}
-
-.dropdown-content a {
-  float: none !important;
-  color: black !important;
-  padding: 10px 16px !important;
-  text-decoration: none !important;
-  display: block !important;
-  text-align: left !important;
-  z-index: 1001 !important;
-}
-
-.dropdown-content a:hover {
-  background-color: #ccc !important;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Darken button for current page on menu */
-
-.navbar li .active {
-  background-color: #111;
-}
-
-.dropdown-content .active {
-  background-color: #ddd !important;
-}
-
-/* Set up body text */
-
-a {
-  color: DodgerBlue;
-  text-decoration: none;
-}
-
-main {
-  overflow-x: hidden;
-}
-
-main h1 {
-  font-size: 36px;
-  margin-top: 0px;
-}
-
-main h2 {
-  font-size: 30px;
-  margin-bottom: 0px;
-}
-
-main h3 {
-  font-size: 20px;
-}
-
-/* Container for body text that automatically sets margins */
-
-.midbox {
+.textcontainer {
   margin: auto;
   max-width: 960px;
   padding: 32px;
-  padding-top: calc(32px + 60.8px);
   font-size: 16px;
 }
 
-/* Footer */
-
-footer {
-  background-color: #111;
-  height: auto;
-  width: 100%;
-  margin-top: 64px;
-  bottom: 0% !important;
-  position: absolute;
-  overflow-x: hidden;
+.bg-black {
+  background-color: #16181a !important;
+}
+a.bg-black:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
+  background-color: #0a0c0e!important;
 }
 
-.fmenu {
-  margin: auto;
-  max-width: 960px;
-  padding: 10px 32px;
-  color: #ccc;
-  height: auto;
-  font-size: 12px;
+.text-light-blue {
+  color: #4fe3ff !important;
 }
-
-.fmenu a {
-  color: SteelBlue;
-}
-
-.fmenu p {
-  margin-top: 0px;
-  margin-bottom: 5px;
+a.text-light-blue:focus, a.text-light-blue:hover {
+  color: #03b9ff !important;
 }
