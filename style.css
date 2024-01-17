@@ -86,3 +86,28 @@ a:focus, a:hover {
     margin: 0px 1em;
 }
 
+img {
+    clear: both;
+    border: 0.25pt solid black;
+    display: inline-block;
+}
+
+.fl-left { float: left; }
+.fl-right { float: right; }
+
+.mg-top { margin-top: 1rem; }
+.mg-right { margin-right: 1rem; }
+.mg-bottom { margin-bottom: 1rem; }
+.mg-left { margin-left: 1rem; }
+
+.cl-line { clear: both; }
+.cl-left { clear: left; }
+.cl-right { clear: right; }
+
+.project {
+    padding-top: 0.5rem;
+}
+
+.project p {
+     margin-top: 0;
+}
