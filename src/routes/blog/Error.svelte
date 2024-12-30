@@ -1,3 +1,1 @@
-<div>
-    No blog post found with that id.
-</div>
+<div>No blog post found with that id.</div>

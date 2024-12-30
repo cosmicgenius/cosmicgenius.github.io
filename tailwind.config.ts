@@ -6,22 +6,22 @@ export default {
 
 	theme: {
 		extend: {
-            typography: (theme) => ({
-                DEFAULT: {
-                    css: {
-                        a: {
-                            color: theme('colors.orange.800'),
-                            textDecoration: "none",
-                            cursor: "pointer",
-                            '&:hover': {
-                                color: theme('colors.amber.950'),
-                                textDecoration: "underline",
-                            },
-                        },
-                    },
-                },
-            }),
-        },
+			typography: (theme) => ({
+				DEFAULT: {
+					css: {
+						a: {
+							color: theme('colors.orange.800'),
+							textDecoration: 'none',
+							cursor: 'pointer',
+							'&:hover': {
+								color: theme('colors.amber.950'),
+								textDecoration: 'underline'
+							}
+						}
+					}
+				}
+			})
+		}
 	},
 
 	plugins: [typography]

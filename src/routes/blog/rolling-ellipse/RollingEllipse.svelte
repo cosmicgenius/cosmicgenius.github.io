@@ -1,3 +1,1 @@
-<div>
-    Rolling ellipse
-</div>
+<div>Rolling ellipse</div>
