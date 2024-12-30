@@ -1,0 +1,17 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+    .main {
+        /* Make main have inner width of 45rem with 
+         * min padding of 1rem and horizontal distribution 
+         * of 2/5 left and 3/5 right */
+        padding: 0 max(calc(60% - 27rem), 1rem)
+                 0 max(calc(40% - 18rem), 1rem);
+    }
+
+    img {
+        border: 1px solid black;
+    }
+}
