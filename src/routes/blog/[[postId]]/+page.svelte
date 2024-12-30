@@ -25,14 +25,14 @@
 	<Navbar currentPage="blog" />
 	<div class="prose m-4">
 		{#if postId in POSTS}
-			<div class="my-4">
-				<h3 class="my-0">{POSTS[postId].title}</h3>
+			<div class="mb-4">
+				<h2 class="my-0">{POSTS[postId].title}</h2>
 				<span class="text-sm text-gray-600">{POSTS[postId].date.toLocaleString()}</span>
 			</div>
 
 			<svelte:component this={POSTS[postId].content} />
 		{:else if !postId}
-			<h3>Posts</h3>
+			<h2>Posts</h2>
 			{#each Object.entries(POSTS).toSorted((a, b) => a[1].date - b[1].date) as [postId, { title, date }]}
 				<div><a href="/blog/{postId}">{title}</a> &mdash; {date.toDateString()}</div>
 			{/each}

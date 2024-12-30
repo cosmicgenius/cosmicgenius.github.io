@@ -10,7 +10,11 @@
 		padding: 0 max(calc(60% - 27rem), 1rem) 0 max(calc(40% - 18rem), 1rem);
 	}
 
-	img {
-		border: 1px solid black;
-	}
+    /* See https://github.com/KaTeX/KaTeX/issues/2731
+     * I don't know what's going on, but this isn't fixed even though my version
+     * is >> 0.13.0.
+     */
+    .frac-line {
+        border-color: black !important;
+    }
 }

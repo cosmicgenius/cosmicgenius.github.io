@@ -8,7 +8,7 @@
 <div class="main flex">
 	<Navbar currentPage="coursework" />
 	<div class="prose m-4">
-		<h3>Coursework</h3>
+		<h2>Coursework</h2>
 
 		<p>
 			The following is a list of some classes that I am taking or have taken at MIT, as well as some

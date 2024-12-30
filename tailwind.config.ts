@@ -3,7 +3,10 @@ import type { Config } from 'tailwindcss';
 
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
-
+    safelist: [
+        // Katex
+        'frac-line',
+    ],
 	theme: {
 		extend: {
 			typography: (theme) => ({
@@ -23,6 +26,5 @@ export default {
 			})
 		}
 	},
-
 	plugins: [typography]
 } satisfies Config;

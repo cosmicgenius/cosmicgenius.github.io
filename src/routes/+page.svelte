@@ -8,8 +8,8 @@
 <div class="main flex">
 	<Navbar currentPage="home" />
 	<div class="prose m-4">
-		<h3>Home</h3>
-		<img class="float-right m-4 mt-8" src="./album/240117_self.jpg" alt="Picture of me" />
+		<h2>Home</h2>
+		<img class="float-right m-4 mt-2 border border-black w-48 max-w-full" src="./album/240117_self.jpg" alt="Picture of me" />
 		<p>
 			Welcome to my website! I am a first year student at MIT, hoping to major in Mathematics
 			(Course 18 General) and Computer Science and Engineering (Course 6-3).
@@ -28,9 +28,3 @@
 		</p>
 	</div>
 </div>
-
-<style>
-	img {
-		max-width: min(12rem, 100%);
-	}
-</style>

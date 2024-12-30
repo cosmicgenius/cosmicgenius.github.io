@@ -1,15 +1,1 @@
-<div class="title">Anthony Wang</div>
-
-<style>
-	.title {
-		text-align: center;
-		font-size: 2rem;
-		color: #ccc;
-		background-color: #16181a;
-		padding: 0.5rem 0;
-
-		width: 100%;
-
-		font-family: 'Open Sans', 'Montserrat', Arial, sans-serif;
-	}
-</style>
+<div class="text-center text-3xl text-zinc-200 bg-zinc-900 p-2 w-full font-sans">Anthony Wang</div>

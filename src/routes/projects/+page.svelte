@@ -8,13 +8,13 @@
 <div class="main flex">
 	<Navbar currentPage="projects" />
 	<div class="prose m-4">
-		<h3>Projects</h3>
+		<h2>Projects</h2>
 
 		<p>The following is a list of some of the math/cs related projects that I have done.</p>
 
 		<div>
 			<img
-				class="max-width-18rem float-right mb-4 ml-4 mt-2"
+				class="w-72 max-w-full float-right mb-4 ml-4 mt-2 border border-black"
 				src="./album/240117_factorize.png"
 				alt="Successful factorization of a 90 digit number"
 			/>
@@ -36,7 +36,7 @@
 				to LaTeX, and connection to an personal external database. Designed with two friends.
 			</p>
 			<img
-				class="max-width-15rem float-left mb-4 mr-4 mt-2"
+				class="w-60 max-w-full float-left mb-4 mr-4 mt-2 border border-black"
 				src="./album/240117_opal.png"
 				alt="Demo problem post that was used on opal"
 			/>
@@ -48,7 +48,7 @@
 
 		<div class="clear-left">
 			<img
-				class="max-width-12rem float-right mb-4 ml-4 mt-2"
+				class="w-48 max-w-full float-right mb-4 ml-4 mt-2 border border-black"
 				src="./album/240117_trains.png"
 				alt={'A sample level from the game "Trains!"'}
 			/>
@@ -63,7 +63,7 @@
 
 		<div class="clear-right">
 			<img
-				class="max-width-16rem float-left mb-4 mr-4 mt-2"
+				class="w-64 max-w-full float-left mb-4 mr-4 mt-2 border border-black"
 				src="./album/240117_tsqx.png"
 				alt="A sample diagram produced by tsqx and Asymptote"
 			/>
@@ -77,7 +77,7 @@
 
 		<div class="clear-left">
 			<img
-				class="max-width-12rem float-right mb-4 ml-4 mt-2"
+				class="w-48 max-w-full float-right mb-4 ml-4 mt-2 border border-black"
 				src="./album/240117_ellipse.png"
 				alt="A diagram with a point marked on an object 
                   rolling without slipping"
@@ -90,7 +90,7 @@
 				<a href="https://projecteuler.net/problem=525"> Project Euler problem 525</a>.
 			</p>
 		</div>
-		<h3>Publications</h3>
+		<h2>Publications</h2>
 
 		<p>
 			Y. Gao, <b>A. Wang</b> (2023). Consecutive patterns in Coxeter groups.
@@ -101,21 +101,3 @@
 		</p>
 	</div>
 </div>
-
-<style>
-	.max-width-12rem {
-		max-width: min(12rem, 100%);
-	}
-
-	.max-width-15rem {
-		max-width: min(15rem, 100%);
-	}
-
-	.max-width-16rem {
-		max-width: min(16rem, 100%);
-	}
-
-	.max-width-18rem {
-		max-width: min(18rem, 100%);
-	}
-</style>
