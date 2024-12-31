@@ -14,7 +14,7 @@
 
 		<div>
 			<img
-				class="w-72 max-w-full float-right mb-4 ml-4 mt-2 border border-black"
+				class="float-right mb-4 ml-4 mt-2 w-72 max-w-full border border-black"
 				src="./album/240117_factorize.png"
 				alt="Successful factorization of a 90 digit number"
 			/>
@@ -36,7 +36,7 @@
 				to LaTeX, and connection to an personal external database. Designed with two friends.
 			</p>
 			<img
-				class="w-60 max-w-full float-left mb-4 mr-4 mt-2 border border-black"
+				class="float-left mb-4 mr-4 mt-2 w-60 max-w-full border border-black"
 				src="./album/240117_opal.png"
 				alt="Demo problem post that was used on opal"
 			/>
@@ -48,7 +48,7 @@
 
 		<div class="clear-left">
 			<img
-				class="w-48 max-w-full float-right mb-4 ml-4 mt-2 border border-black"
+				class="float-right mb-4 ml-4 mt-2 w-48 max-w-full border border-black"
 				src="./album/240117_trains.png"
 				alt={'A sample level from the game "Trains!"'}
 			/>
@@ -63,7 +63,7 @@
 
 		<div class="clear-right">
 			<img
-				class="w-64 max-w-full float-left mb-4 mr-4 mt-2 border border-black"
+				class="float-left mb-4 mr-4 mt-2 w-64 max-w-full border border-black"
 				src="./album/240117_tsqx.png"
 				alt="A sample diagram produced by tsqx and Asymptote"
 			/>
@@ -77,7 +77,7 @@
 
 		<div class="clear-left">
 			<img
-				class="w-48 max-w-full float-right mb-4 ml-4 mt-2 border border-black"
+				class="float-right mb-4 ml-4 mt-2 w-48 max-w-full border border-black"
 				src="./album/240117_ellipse.png"
 				alt="A diagram with a point marked on an object 
                   rolling without slipping"

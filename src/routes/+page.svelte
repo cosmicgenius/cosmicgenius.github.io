@@ -9,7 +9,11 @@
 	<Navbar currentPage="home" />
 	<div class="prose m-4">
 		<h2>Home</h2>
-		<img class="float-right m-4 mt-2 border border-black w-48 max-w-full" src="./album/240117_self.jpg" alt="Picture of me" />
+		<img
+			class="float-right m-4 mt-2 w-48 max-w-full border border-black"
+			src="./album/240117_self.jpg"
+			alt="Picture of me"
+		/>
 		<p>
 			Welcome to my website! I am a first year student at MIT, hoping to major in Mathematics
 			(Course 18 General) and Computer Science and Engineering (Course 6-3).

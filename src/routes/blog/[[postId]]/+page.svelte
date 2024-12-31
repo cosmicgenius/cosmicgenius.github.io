@@ -23,7 +23,7 @@
 <Header />
 <div class="main flex">
 	<Navbar currentPage="blog" />
-	<div class="prose m-4">
+	<div class="prose m-4 overflow-hidden">
 		{#if postId in POSTS}
 			<div class="mb-4">
 				<h2 class="my-0">{POSTS[postId].title}</h2>
