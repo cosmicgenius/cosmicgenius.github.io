@@ -6,8 +6,7 @@
     <h2>Coursework</h2>
 
     <p>
-        The following is a list of some classes that I am taking or have taken at MIT, as well as some
-        that I plan on taking in the future.
+        The following is a list of some classes that I have taken at MIT.
     </p>
 
     Spring 2024:

@@ -16,6 +16,12 @@
         likely in mathematics).
     </p>
 
+    <p>
+        I am primarily interested in developing new techniques to push the boundaries of what
+        is possible. In mathematics, my focus has mainly been on applying algebraic techniques to
+        combinatorics. I am now venturing into the AI space.
+    </p>
+
     <!--
     <p>
         In mathematics, I am primarily interested in combinatorics, especially algebraic combinatorics
