@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+	/* See https://github.com/KaTeX/KaTeX/issues/2731
+     * I don't know what's going on, but this isn't fixed even though my version
+     * is >> 0.13.0.
+     */
+	.frac-line {
+		border-color: black !important;
+	}
+}
