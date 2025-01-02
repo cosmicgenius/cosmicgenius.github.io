@@ -25,7 +25,7 @@
 	};
 </script>
 
-<div class="mb-4 mr-2 shrink-0 grow-0 basis-1/6 text-right font-sans font-semibold leading-normal">
+<div class="text-right font-sans font-semibold leading-normal">
 	<div class="py-4 text-lg">Navigation</div>
 	{#each Object.entries(PAGES) as [key, { url, name }]}
 		<a

@@ -3,14 +3,6 @@
 @import 'tailwindcss/utilities';
 
 @layer base {
-	.main {
-		/* Make main have inner width of 50rem with 
-         * min padding of 1rem and horizontal distribution 
-         * of 2/5 left and 3/5 right */
-		margin: 0 max(calc(60% - 30rem), 1rem) 0 max(calc(40% - 20rem), 1rem);
-		max-width: 50rem;
-	}
-
 	/* See https://github.com/KaTeX/KaTeX/issues/2731
      * I don't know what's going on, but this isn't fixed even though my version
      * is >> 0.13.0.
